@@ -1,5 +1,3 @@
-# Save as .github/workflows/weekly-update.yml (replaces the earlier version)
-# Rename clt/weekly.R below to whatever your pipeline script is called.
 name: weekly-update
 
 on:
@@ -26,18 +24,17 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          working-directory: clt # reads clt/DESCRIPTION
           cache-version: 1 # bump to bust the cache
 
       - name: Run pipeline
-        run: Rscript clt/weekly.R
+        run: Rscript pipeline/weekly.R
 
       # Data goes straight to master: it is deterministic, no review needed
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add clt/clt.sqlite clt/data/
+          git add data/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
@@ -49,22 +46,22 @@ jobs:
       - name: Draft commentary
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: Rscript clt/commentary.R
+        run: Rscript pipeline/commentary.R
 
       # If this step fails, the commentary PR still opens without The Read
       - name: Draft The Read
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: Rscript clt/read.R
+        run: Rscript pipeline/read.R
 
       - name: Open PR for review
         uses: peter-evans/create-pull-request@v7
         with:
           add-paths: |
-            clt/data/**/commentary.json
-            clt/data/**/commentary.md
-            clt/data/**/read.json
+            data/**/commentary.json
+            data/**/commentary.md
+            data/**/read.json
           branch: commentary-draft
           delete-branch: true
           commit-message: "Draft commentary"
