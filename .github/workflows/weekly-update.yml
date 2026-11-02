@@ -2,8 +2,13 @@ name: weekly-update
 
 on:
   schedule:
-    - cron: "0 11 * * 2" # Tuesdays 11:00 UTC (6-7am Central). Cron is UTC only.
-  workflow_dispatch: # lets you run it manually from the Actions tab
+    - cron: "0 11 * * 2" # Tuesdays 11:00 UTC. Cron is UTC only.
+  workflow_dispatch: # run manually from the Actions tab
+    inputs:
+      force:
+        description: Regenerate commentary even if it already exists for this week
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -24,12 +29,12 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          cache-version: 1 # bump to bust the cache
+          cache-version: 1 # reads DESCRIPTION; bump to bust the cache
 
       - name: Run pipeline
         run: Rscript pipeline/weekly.R
 
-      # Data goes straight to master: it is deterministic, no review needed
+      # Data goes straight to the main branch: it is deterministic, no review needed
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
@@ -46,6 +51,7 @@ jobs:
       - name: Draft commentary
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_COMMENTARY: ${{ inputs.force && '1' || '' }}
         run: Rscript pipeline/commentary.R
 
       # If this step fails, the commentary PR still opens without The Read
@@ -53,9 +59,12 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FORCE_COMMENTARY: ${{ inputs.force && '1' || '' }}
         run: Rscript pipeline/read.R
 
+      # Only runs if a draft was written; otherwise there is nothing to review
       - name: Open PR for review
+        if: hashFiles('pr_body.md') != ''
         uses: peter-evans/create-pull-request@v7
         with:
           add-paths: |
