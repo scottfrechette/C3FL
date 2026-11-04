@@ -1,0 +1,19 @@
+{
+  "season": 2026,
+  "week": 8,
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-03T18:25:57Z",
+  "reads": {
+    "PFinn": "PFinn is 6-2, first in the standings and first in FVOA, with playoff odds of 92%, up 9 points. The schedule has been the hardest in the league by sos_rank, yet the luck label still reads lucky, which is a neat trick. Beat Josh as a 6-point favorite and odds hit 99%. A loss drops them to 79%.",
+    "Barrett": "Barrett leads the league in points scored and holds the top strength-of-record rank, which is how playoff odds jumped 47 points to 87%. The luck label says lucky, and the bench has left 129.1 points unused this season, third most. Beat David as a 6.5-point favorite and odds reach 96%. A loss means 73%.",
+    "Chris": "Chris is the picture of steadiness: third in the standings, third in FVOA, and about even on schedule luck. Playoff odds sit at 77%, down 2. Diaz is next with Chris favored by 2.5, and the game swings 36 points of odds, to 95% with a win and 59% with a loss.",
+    "Scott": "Scott dropped 14 points to 61% playoff odds, and the bench did not help, leaving 17.4 points unused last week, second most. KC put up 11.3 there while the LV starter scored 0. At 5-3 and fourth in both the standings and FVOA, the commissioner faces a huge game against Justin: 86% with a win, 24% with a loss.",
+    "Justin": "Justin is 5-3 and fifth, but FVOA ranks the team sixth and the schedule has been on the easy side, 8th on the hardest-to-easiest scale. Playoff odds are 30%, up 2. As a 3.5-point underdog against Scott, Justin sees odds climb to 58% with a win and fall to 8% with a loss.",
+    "Diaz": "Diaz is 4-4 with the luck label reading unlucky, and 54% of random schedules would have left the team ranked higher. Scoring is about average, but only one team has had more points scored against it. Odds are 38%, up 9. A win over Chris as a 2.5-point underdog means 69%. A loss means 15%.",
+    "Eric": "Eric is 3-5 with 5% playoff odds, down 15 points, and FVOA rates the team lower than its seventh place in the standings. Scoring is 7.1% below the league average, and the luck label says lucky. The bench has left 137.1 points unused this season, second most, though last week it left none. A loss to Bobby ends the odds at 0%.",
+    "Bobby": "Bobby has the worst FVOA in the league and 2% playoff odds, down 10 points, yet sits eighth in the standings, helped by a lucky schedule. The bench was a disaster: 47 points left unused last week, the most in the league, with KC's 29.3 stuck there while Bal's starter scored 0. Eric is next, and a loss means 0%.",
+    "Josh": "Josh is 2-6, but FVOA ranks the team seventh, two spots above its place in the standings. Nobody has had more points scored against them, and 84% of random schedules would have treated Josh better. Odds are 7%, down 5. As a 6-point underdog to PFinn, a win lifts odds to 19% and a loss leaves 1%.",
+    "David": "David is 2-6 and last in the standings, but FVOA ranks the team eighth. The schedule has been brutal: 84% of random schedules would have left David ranked higher and none worse. Odds fell 22 points to 2%. Barrett is next with David a 6.5-point underdog, and even a win only gets odds to 4%."
+  },
+  "review_flags": []
+}
