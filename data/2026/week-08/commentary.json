@@ -1,0 +1,10 @@
+{
+  "season": 2026,
+  "week": 8,
+  "mode": "weekly",
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-03T18:25:34Z",
+  "bullets": ["FVOA says PFinn is the only team in the league that would be favored against a historically average team (+0.3), and the other nine all sit below that line. PFinn is 1st in both FVOA and the standings, with ~92% to make playoffs and ~42% to grab the 1 seed.", "Barrett had the biggest odds swing of the week, up ~47 points to ~87% to make playoffs. He is now the 2nd strongest team, has the best strength of record, and has a ~26% shot at the 1 seed himself.", "Bobby left 47 points on his bench, the most in the league this week, because KC at QB put up 29.3 while Bal gave him 0 in the lineup. He also leads the season in points left on the bench at 140, so the 10th strongest team is doing it to himself, and he has a ~36% chance of finishing last.", "Bobby and Eric (~32% for last) play each other next week in a game FVOA rates as the least interesting on the slate, with Eric a 52% favorite. It's a battle for the cellar and nobody should have to watch it.", "Diaz is 4-4 with a ~38% playoff chance, but the Chris game swings that to ~69% with a win or ~15% with a loss. Justin is 5-3 in 5th place but only the 6th strongest team, which is why he sits at ~30%."],
+  "commish_corner": "Commish took the league's biggest fall in FVOA, dropping 3 spots to 4th, and his playoff odds slid ~14 points to ~61%. Next week against Justin is the highest-leverage game in the league, with ~86% to make playoffs on a win and ~24% on a loss, and he is a 54% favorite. It doesn't help that he left 17.4 points on his bench, 2nd most this week, including KC at WR with 11.3 while LV gave him 0.",
+  "review_flags": []
+}
