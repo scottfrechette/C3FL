@@ -1,0 +1,10 @@
+## Week 9 draft (weekly mode)
+
+- PFinn is 7-2, the strongest team, and has a ~98% chance to make playoffs and a ~65% chance at the 1 seed. He also left 0 points on his bench this week and has the fewest left all season (82.2), so FVOA's main complaint is that he is boring.
+- Chris is the biggest riser, up to 2nd strongest, and his playoff odds jumped 13 points to ~90%. He also left a league-high 30.9 points on his bench, including Hou at QB with 42.8 points while he started Dal's 21.3. That would be a fun story if he weren't winning anyway.
+- Eric is where FVOA and Yahoo disagree most. He sits 7th in the standings at 4-5 but is only the 9th strongest team, with scoring 7.4% below the league average. Add a schedule FVOA calls lucky, and his ~12% playoff chance looks about right. He also leads the league in points left on the bench this season (158.5), including SF at QB with 27.7 points against the 13.3 he started from Buf.
+- Josh and David are the two teams FVOA likes more than the standings. Josh is the 7th strongest team but sits 9th at 2-7, and David is 8th strongest in last place. Both get the 'unlucky' label from schedule luck, and Josh has played the hardest schedule so far. It doesn't matter much now, with Josh at ~3% to make playoffs and David at ~0.2%.
+- The last playoff spots are swinging wildly. Justin jumped 27 points to ~57% as the biggest odds mover, while Scott fell 18 points to ~43%. Scott has the highest leverage in the league next week against PFinn, going to ~73% with a win and ~21% with a loss, though FVOA gives PFinn a 59% win probability.
+- <u><strong>Commish Corner</strong></u> - Commish slipped to 3rd strongest and lost 8 points of playoff odds, down to ~79%. But he is 6-3, 2nd in the standings, and has the best strength of record in the league. FVOA calls that schedule luck, so he may as well enjoy it. Next week against Diaz is worth a lot: a win puts him at ~95% to make playoffs, and a loss drops him to ~62%.
+
+_Merge to publish. Edit commentary.json in this PR first if anything needs fixing._

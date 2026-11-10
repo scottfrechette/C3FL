@@ -1,0 +1,19 @@
+{
+  "season": 2026,
+  "week": 9,
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-10T18:37:44Z",
+  "reads": {
+    "PFinn": "PFinn sits first at 7-2 with 98% playoff odds, and FVOA agrees by ranking them first as well. The schedule label reads lucky, but the league's top scoring total makes that a footnote. Scott is next with PFinn a 7-point favorite, and a win pushes the odds to 100%.",
+    "Barrett": "Barrett owns the top strength-of-record rank at 6-3, yet playoff odds slipped 8 points to 79%. FVOA has them third and the schedule label reads lucky, so the standing is a touch generous. Diaz is next with Barrett a 4.5-point favorite: a win means 95%, a loss drops them to 62%.",
+    "Chris": "Chris is 6-3 with 90% playoff odds, up 13 points, and FVOA ranks them second. The one blemish was the bench: 30.9 points left behind last week, the most in the league, with Hou posting 42.8 on the pine while Dal started and scored 21.3. Eric is next, with Chris a 10.5-point favorite.",
+    "Justin": "Justin jumped 27 points to 57% playoff odds, sitting fourth at 6-3 with scoring that backs it up. FVOA is less impressed, ranking the team fifth with a negative margin, so no victory laps yet. David is next with Justin a 3-point favorite, and the game swings odds between 78% with a win and 32% with a loss.",
+    "Scott": "Scott is 5-4 with scoring right around average, and playoff odds fell 18 points to 43%. FVOA ranks the team fourth, a notch above its fifth-place standing, so the model is mildly supportive. Facing PFinn as a 7-point underdog, a win lifts the odds to 73%, while a loss sinks them to 21%.",
+    "Diaz": "Diaz is 4-5 with 16% playoff odds, down 21 points, and below-average scoring says the record is about what the team has earned. FVOA ranks them sixth, matching the standings exactly. Barrett is next with Diaz a 4.5-point underdog: a win keeps hope alive at 36%, while a loss leaves just 4%.",
+    "Eric": "Eric is 4-5 and seventh in the standings, but FVOA ranks the team ninth, and the lucky schedule label explains the gap. The bench has not helped: 158.5 points left there this season, the most in the league, including SF scoring 27.7 on the pine while Buf started with 13.3. Chris is next, with Eric a 10.5-point underdog.",
+    "Bobby": "Bobby is 3-6 and eighth in the standings, but FVOA ranks the team last and the scoring total is the league's lowest. The schedule label reads lucky, with 89% of random schedules leaving them worse off. Playoff odds sit at 2%, and even a win over Josh as a 5-point underdog leaves them at 1%.",
+    "Josh": "Josh is 2-7 with 3% playoff odds, yet FVOA ranks the team seventh, two spots above its standing. The schedule label reads unlucky, with 90% of random schedules leaving them better off, and no team has had more points scored against it. Bobby is next with Josh a 5-point favorite, and a win lifts odds to 6%.",
+    "David": "David sits last at 2-7 with 0% playoff odds, though FVOA ranks the team eighth and the schedule label reads unlucky. No random schedule in the simulation left them worse off. The bench did not help either: Hou scored 16.5 there while Jax started and posted minus 0.1. Justin is next, with David a 3-point underdog and a win worth just 1%."
+  },
+  "review_flags": []
+}
