@@ -1,0 +1,11 @@
+{
+  "season": 2026,
+  "week": 10,
+  "mode": "weekly",
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-17T20:25:27Z",
+  "bullets": ["FVOA and Yahoo disagree about the top of the league. Chris is the strongest team (+10.6) but sits 2nd, while PFinn is 1st in the standings but only 2nd strongest. FVOA gives Chris ~45% to finish first and PFinn ~31%.", "David is the biggest riser, up 2 spots to 6th strongest, which sits awkwardly next to a 2-8 record in 9th place. His schedule is labeled unlucky, but it doesn't matter now because he's at 0% to make playoffs. Josh is in the same boat as the 8th strongest team stuck in 10th, with ~56% to finish dead last.", "Scott had the biggest odds swing of the week, up ~13 points to ~56% to make playoffs. It's still a coin flip with a big lever attached: ~78% if he beats Bobby, ~25% if he doesn't. FVOA has him as a ~63% favorite, so don't blow it.", "Justin has the most at stake next week. His playoff odds jumped ~11 points to ~69%, and they go to ~98% with a win over Barrett or ~43% with a loss. FVOA rates him only 5th strongest, so he's riding the 7-3 record harder than the team underneath it.", "Diaz left 29.8 points on his bench this week, the most in the league, including Was at QB scoring 25.1 while he started Car's 6.8. His playoff odds dropped ~13 points to ~3%, so at 4-6 the bench is no longer his main problem. Eric still owns the season-long bench crown at 176 points left."],
+  "commish_corner": "Commish is 7-3 with the best strength of record in the league and the 3rd strongest team, which makes ~79% to make playoffs feel a little low. A win over Justin next week sends the odds to 100%, and a loss drops them to ~58%. He did leave 12.7 points on the bench this week, with NO at RB scoring 13.4 while Pit managed 4.1, so he'd like that fixed before the big one.",
+  "review_flags": [],
+  "awards": []
+}

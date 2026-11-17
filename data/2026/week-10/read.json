@@ -1,0 +1,19 @@
+{
+  "season": 2026,
+  "week": 10,
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-17T20:26:18Z",
+  "reads": {
+    "PFinn": "PFinn sits first in the standings at 7-3 with 94% playoff odds, down 5 points on the week. The luck check says lucky: 0% of random schedules would have left them ranked higher. They left 20.7 points on the bench this week, including 13.1 from Dal while Det managed 5. Beating David as an 11-point favorite pushes odds to 99%.",
+    "Chris": "FVOA ranks Chris first at 10.63, a notch above the standings, where the team sits second at 7-3. The hardest schedule in the league (sos rank 1) hasn't dented 93% playoff odds, up 3 points. Beat Josh as a 13.5-point favorite and odds climb to 98%. Lose and they drop to 79%.",
+    "Barrett": "Barrett owns the top strength-of-record rank in the league, so the 7-3 mark is earned, and FVOA agrees with third place. Playoff odds are 79%, but Justin is the swing game. A win sends odds to 100%, a loss drops them to 58%, and Barrett is a 4-point favorite.",
+    "Justin": "Justin jumped 11 points to 69% playoff odds and sits fourth at 7-3, with FVOA ranking the team fifth, so the model has no complaints. Next is Barrett, where Justin is a 4-point underdog at 46% to win. A win sends odds to 98%, while a loss leaves them at 43%.",
+    "Scott": "Scott is 6-4 and fifth in the standings, with FVOA slotting the team fourth and playoff odds up 13 points to 56%. No team has left fewer points on the bench all season (97.9), which is the boring competence that wins leagues. Bobby is next with Scott a 10-point favorite: win and odds hit 78%, lose and they fall to 25%.",
+    "Diaz": "Diaz left a league-high 29.8 points on the bench this week, including 25.1 from Was while starter Car scored 6.8, and playoff odds fell 13 points to 3%. At 4-6 and sixth, the record matches below-average scoring. Eric is next with Diaz a 1.5-point favorite, but even a win only gets odds to 7%.",
+    "Eric": "Eric is 4-6 and seventh, but FVOA ranks the team ninth, and the schedule has been kind: 78% of random schedules would have left Eric worse off. No team has left more on the bench this season than Eric's 176 points, and playoff odds are 5%. Diaz is next with Eric a 1.5-point underdog. A win gets odds to 8%, a loss takes them to 0%.",
+    "Bobby": "Bobby sits eighth at 4-6, but FVOA ranks the team last, and the league's lowest point total (pf rank 10) backs that up. A lucky schedule helps too: 87% of random schedules would have left Bobby worse off. Playoff odds are 1%, and as a 10-point underdog to Scott, even a win leaves them at 1%.",
+    "David": "David is 2-8 and ninth, though FVOA ranks the team sixth, and the schedule label says unlucky: 77% of random schedules would have left David ranked higher. Playoff odds are 0%, so the game with PFinn, where David is an 11-point underdog, is purely about pride.",
+    "Josh": "Josh is last in the standings at 2-8, yet FVOA ranks the team eighth, and the schedule has been the cruelest around: 93% of random schedules would have left Josh ranked higher, and none worse. Opponents have scored the most points against Josh, and playoff odds are 0%. Chris, a 13.5-point favorite, is next."
+  },
+  "review_flags": []
+}
