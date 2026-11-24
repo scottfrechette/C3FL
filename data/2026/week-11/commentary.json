@@ -1,0 +1,10 @@
+{
+  "season": 2026,
+  "week": 11,
+  "mode": "weekly",
+  "model": "claude-sonnet-5-5",
+  "generated_at": "2026-11-24T21:08:21Z",
+  "bullets": ["Justin is the biggest faller this week. He's in 4th place with a 7-4 record but has just the 7th strongest team, and his playoff odds dropped about 34 points to ~35%. He plays Diaz next week at ~52% and the swing is huge: ~50% to make it with a win, ~11% with a loss.", "FVOA's two biggest disagreements with the standings are both on the bottom. David has the 4th strongest team but sits in 9th at 3-8, and Josh has the 6th strongest team but is in last at 2-9. The schedule luck sim calls both of them unlucky, which is little consolation with playoff odds of ~2% and 0%. Josh is at least a ~56% favorite over Eric next week.", "Eric has now left the most points on his bench all season at ~190, which is the only thing he's leading. This week he sat SF at QB for 26.5 points while Buf started and scored 12.1. FVOA gives him a ~0.1% shot at the playoffs, so at least the bench points won't change that.", "The first three playoff spots are basically booked: Chris at ~98%, Barrett at ~96% and PFinn at ~94%. Chris is still ~63% to grab the 1 seed. The real fight is for the last spot, where Scott is at ~61% and Justin at ~35%. Scott's game with Chris is the big one. Scott has a ~40% chance of winning, and the result moves him from ~47% to ~92% to make playoffs.", "Diaz has the 3rd best strength of record but only the 9th strongest team, and FVOA says the 5-6 record is a bit of a gift. He's scoring about 5% below the league average and the schedule luck sim calls him lucky. He also left 17.6 points on his bench this week, the most in the league. Playoff odds are ~5%."],
+  "commish_corner": "Barrett is 8-3 in 2nd place with the 3rd strongest team and ~96% to make playoffs, which is up about 17 points this week. FVOA also calls his schedule lucky, so he's getting a little help. PFinn is a ~55% favorite over him next week, but a win locks him in at 100% and even a loss still leaves ~94%.",
+  "review_flags": []
+}
